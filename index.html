@@ -10,43 +10,45 @@
     <script src="https://kit.fontawesome.com/0178b296a8.js" crossorigin="anonymous"></script>
     <title>RedFox</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.sass">
 </head>
 <body>
-    <nav class="navbar navbar-dafult">
+    <!--HEADER-->
+    <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
-          </button>
-          <a class="navbar-brand" href="#"><i class="fa-brands fa-renren"></i> RedFox</a>
-        </div>
-        <div class="container-fluid">
-            <form class="navbar-form navbar-left" action="/action_page.php">
-                <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search designs and products">
-                </div>
-                <button type="submit" class="btn btn-default"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-renren"></i> RedFox</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Clothing</a></li>
-            <li><a href="#">Phone Cases</a></li>
-            <li><a href="#">Wall Art</a></li>
-            <li><a href="#">Pets</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
+            <form class="navbar-form navbar-left" action="/action_page.php">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search designs and products">
+                    <button type="submit" class="btn btn-default"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </form>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Clothing</a></li>
+                <li><a href="#">Phone Cases</a></li>
+                <li><a href="#">Wall Art</a></li>
+                <li><a href="#">Pets</a></li>
+            </ul>
+            <ul class = "nav navbar-nav">
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>  
+               <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+               <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>  
+            </ul>
+        </div>    
         </div>
-      </div>
     </nav>
-    
+    <!--INICIAL IMAGE-->
     <div class="jumbotron">
       <div class="container-fluid jumbotron text-center">
-        <img src="https://images.unsplash.com/photo-1604898426702-4b4f1c5e973a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1257&q=80" class="img-responsive" style="width:100%" alt="Image" id="img-junbotron">
+        <img src="https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="img-responsive" style="width:100%" alt="Image" id="img-junbotron">
       </div>
     </div>
       
@@ -55,11 +57,11 @@
       <div class="row">
         <div class="col-sm-3">
             <p>Shop Feminine Clothes</p>
-          <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="img-responsive" style="width:100%" alt="Image">
+          <img src="https://images.unsplash.com/photo-1608883819098-4cae10773e98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=395&q=80" class="img-responsive" style="width:100%" alt="Image">
         </div>
         <div class="col-sm-3"> 
           <p>Shop Masculine Clothes</p>
-          <img src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="img-responsive" style="width:100%" alt="Image">
+          <img src="https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="img-responsive" style="width:100%" alt="Image">
         </div>
         <div class="col-sm-3"> 
           <p>Shop Shoes</p>
