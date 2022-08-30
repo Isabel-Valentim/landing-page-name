@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400&display=swap');
+
+:root{
+    --red-brand-color:rgb(224, 1, 1);
+    --font-dark-gray-color: rgb(24, 24, 24);
+    --font-dark-purple-color:rgb(38, 2, 79);
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--font-dark-gray-color);
+}
+#myNav{
+    background-color: #fff;
+    color: #000000;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;  
+}
+#logo{
+    color: var(--red-brand-color);
+    font-family:'Bebas Neue', cursive;
+    font-weight: bolder;
+    font-size:25px;
+}
+.nav{
+    color:var(--font-dark-gray-color);;
+}
+
+
+
+.jumbotron{
+    padding:0;
+    margin: 0;
+}
+#jumbotronImg{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    background-size:cover; 
+    background-position:center center; 
+    background-repeat:no-repeat;
+    overflow: hidden;   
+}
+
+
+
+#myProductRange{
+    color: var(--font-dark-purple-color);
+}
+#myProductRange .col-sm-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#myProductRange button{
+    color: var(--font-dark-purple-color);
+    font-weight: bold;
+    border: none;
+    outline-color: var(--font-dark-purple-color);
+    box-shadow: var(--font-dark-gray-color) 1px 1px 4px;
+    border-radius: 20px;
+    padding: 7px 10px;
+    position: absolute;
+    bottom: 50px;
+    cursor: pointer;
+}
+#myProductRange img{
+    height: 400px;
+    object-fit: cover;
+    background-size:cover;
+    background-position:center center; 
+    background-repeat:no-repeat;
+    cursor: pointer;
+}
+#myProductRange img:hover{
+    transform: scale(0.98);
+    z-index: -1;
+}
+#myProductRange button:hover{
+    transform: scale(1.02);
+}
+
+
+
+
+#myColumnsWithText{
+    color: var(--font-dark-purple-color);
+}
+
+
+#myFeaturedProducts{
+    color:var(--font-dark-purple-color)
+}
+#myFeaturedProducts .col-xs-3{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;   
+}
+#myFeaturedProducts img{
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        background-size:cover;
+        background-position:center center; 
+        background-repeat:no-repeat;
+        cursor: pointer;
+}
+#myFeaturedProducts h5{
+    font-weight: bold;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+.ProductRangeEL{
+    color: var(--font-dark-purple-color);
+}
